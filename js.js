@@ -43,7 +43,7 @@ async function basic_info_get(){
 
 async function repos_info_get(){
     
-    const res = await fetch('https://api.github.com/users/abelmathew07/repos');
+    const res = await fetch('https://api.github.com/users/SouparnikaJayasoorianUnni/repos');
     const data = await res.json()
     
     br=document.createElement('br');
