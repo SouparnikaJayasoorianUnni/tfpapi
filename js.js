@@ -4,7 +4,7 @@ const card = document.querySelector('.card');
 const box = document.querySelector('.box');
 
 async function basic_info_get(){
-    const res = await fetch('https://api.github.com/users/Anusha-2k3');
+    const res = await fetch('https://api.github.com/users/SouparnikaJayasoorianUnni');
     // const res = await fetch('https://random-data-api.com/api/users/random_user');
     const data = await res.json()
     
